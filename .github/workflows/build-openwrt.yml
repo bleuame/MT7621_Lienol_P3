@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build OpenWrt with Lienol
+name: Build OpenWrt passwall V1
 
 on:
   repository_dispatch:
