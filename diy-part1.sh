@@ -14,4 +14,7 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-sed -i '$a src-git laohu https://github.com/huchanghui123/Lienol-openwrt-packages-backup' feeds.conf.default
+#sed -i '$a src-git laohu https://github.com/huchanghui123/Lienol-openwrt-packages-backup' feeds.conf.default
+echo 'src-git laohu https://github.com/huchanghui123/Lienol-openwrt-packages-backup' >>feeds.conf.default
+#echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
+#echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
